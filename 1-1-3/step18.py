@@ -27,6 +27,7 @@ for floor in range(num_floors):
         painter.color("blue")
     if (rem == 2):
         painter.color("blue")
+
     y = y + 5  # location of next floor
 
     # draw the floor
