@@ -24,6 +24,20 @@ while (n < legs):
     spider.setheading(spacing * -n)
     spider.forward(lngthlegs)
 
+if (legs == 8):
+    spider.penup()
+    spider.pencolor("darkviolet")
+    spider.pensize(15)
+    spider.goto(0, 0)
+    spider.pendown()
+    spider.circle(3)
+
+    spider.penup()
+    spider.pencolor("darkviolet")
+    spider.pensize(15)
+    spider.goto(20, 10)
+    spider.pendown()
+    spider.circle(3)
 
 
 spider.hideturtle()
